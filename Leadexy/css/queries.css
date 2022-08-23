@@ -1,0 +1,153 @@
+@media (max-width: 80em) {
+  .container {
+    margin: 0 1.5rem;
+  }
+
+  .header .container {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+
+  .header-nav-link .header-nav-logo {
+    padding-left: 0.9rem;
+  }
+}
+
+@media (max-width: 68em) {
+  .header {
+    padding-bottom: 2rem;
+
+    border-bottom: 1px solid #eef1f7;
+  }
+
+  .mobile-nav {
+    display: flex;
+    align-items: center;
+    gap: 2.3rem;
+  }
+
+  .underheader {
+    display: block;
+    margin-bottom: 1.3rem;
+  }
+
+  .header-create-mail {
+    display: none;
+  }
+
+  .main {
+    overflow: hidden;
+  }
+
+  .side-navigation {
+    display: none;
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    border: 1px solid #ebeef1;
+    border-top: none;
+    border-radius: 0;
+    border-bottom-left-radius: 8px;
+    box-shadow: none;
+    padding-right: 28px;
+    transform: translateX(100%);
+    transition: all 0.25s ease-in-out;
+  }
+
+  .side-navigation.opened {
+    display: block;
+    pointer-events: auto;
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  .main {
+    grid-template-columns: 1fr;
+  }
+
+  .messages-container {
+    grid-template-columns: 1fr;
+    row-gap: 1.6rem;
+  }
+
+  .messages {
+    max-height: none;
+  }
+}
+
+@media (max-width: 50em) {
+  .specialist {
+    flex-direction: column;
+    gap: 1.1rem;
+    align-items: start;
+  }
+}
+
+@media (max-width: 40em) {
+  html {
+    font-size: 52%;
+  }
+
+  .main-info {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .btn-plus {
+    display: inline-block;
+  }
+
+  .search-field {
+    width: 100%;
+    margin-top: 1.8rem;
+    font-size: 1.8rem;
+    padding-top: 1.44rem;
+    margin-bottom: 1.56rem;
+    margin-left: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .search-icon {
+    top: 42%;
+    left: 1.8rem;
+  }
+}
+
+@media (max-width: 28.9em) {
+  .card-icon {
+    top: 27%;
+    left: 50%;
+  }
+
+  .card-icon svg {
+    width: 48px;
+    height: 48px;
+  }
+
+  .card {
+    padding: 2.6rem 1.5rem 2.6rem 2.3rem;
+  }
+
+  .main-content {
+    padding: 2.16rem 0.96rem 2.16rem 1.92rem;
+  }
+}
+
+@media (max-width: 25em) {
+  .message-data {
+    display: none;
+  }
+
+  .message-navigation {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.25rem;
+  }
+}
