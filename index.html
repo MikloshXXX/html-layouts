@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Layouts</title>
+    <style>
+      .container {
+        max-width: 800px;
+        height: 100vh;
+        margin: 0 auto;
+        display: grid;
+        align-content: center;
+        justify-content: center;
+        row-gap: 1rem;
+        grid-template-columns: 1fr;
+      }
+
+      a:link,
+      a:visited {
+        text-align: center;
+        font-weight: 600;
+        font-family: sans-serif;
+        text-decoration: none;
+        display: inline-block;
+        padding: 1.5rem 3rem;
+        font-size: 2rem;
+        color: #343a40;
+        background-color: #f1f3f5;
+        border-radius: 11px;
+        transition: all 0.3s ease-in-out;
+      }
+
+      a:hover,
+      a:active {
+        transform: translateY(-5px);
+        background-color: #dee2e6;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <a href="Omnifood/index.html">Omnifood</a>
+      <a href="Leadexy/index.html">Leadexy</a>
+    </div>
+  </body>
+</html>
