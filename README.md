@@ -1,5 +1,5 @@
 # Layouts
-Just some examples of my layouts (practice)
+Just a bit of practice in creating HTML layouts
 
 # Link
 https://mikloshxxx.github.io/Layouts/
